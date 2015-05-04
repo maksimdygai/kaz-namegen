@@ -1,0 +1,36 @@
+body {
+	font-family: sans-serif;
+}
+
+.container {
+	max-width: 480px;
+	margin: 10% auto 0;
+	text-align: center;
+}
+
+.defaultface {
+	max-width: 100%;
+}
+
+.name {
+	margin: 0 0 10px;
+	padding: 20px;
+	font-size: 24px;
+	font-weight: bold;
+	color: #eee;
+	background: #333;
+}
+
+.gen-btn {
+	text-decoration: none;
+  	border-bottom: 1px dotted;
+}
+
+
+/*MEDIA*/
+
+@media (max-height: 768px) {
+	.container {
+    	margin: 0 auto;
+	}
+}
